@@ -1,4 +1,4 @@
-# electron-build-test
+# electron-update-demo
 
 > An electron-vue project
 

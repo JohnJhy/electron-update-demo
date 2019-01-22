@@ -1,6 +1,6 @@
 {
-  "name": "electron-build-test",
-  "version": "5.0.0",
+  "name": "electron-update-demo",
+  "version": "1.0.0",
   "author": "来日可期 <1084172570@qq.com>",
   "description": "An electron-vue project",
   "license": null,
@@ -20,16 +20,10 @@
     "postinstall": "npm run lint:fix"
   },
   "build": {
-    "productName": "electron-build-test",
+    "productName": "electron-update-demo",
     "appId": "com.example.yourapp",
     "directories": {
       "output": "build"
-    },
-    "nsis": {
-      "oneClick": false,
-      "perMachine": true,
-      "allowToChangeInstallationDirectory": true,
-      "createDesktopShortcut": true
     },
     "publish": [
       {

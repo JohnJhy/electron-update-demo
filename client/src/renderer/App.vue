@@ -3,7 +3,6 @@
     当前版本：{{version}}
     <button @click="checkForUpdates">检查更新</button>
     <button @click="toggleDevTools">打开/关闭开发者工具</button>
-
     <div class="update-box" v-if="updateStep!==-2">
       <div class="inner-box">
         <div @click="closeUpdateBox" class="close-btn">x</div>
@@ -19,7 +18,6 @@
         </div>
       </div>
     </div>
-
   </div>
 </template>
 
@@ -30,7 +28,7 @@
       return {
         updateMsg: ['错误', '检查更新中', '发现新版本，是否下载？', '恭喜，您的软件已是最新版本', '软件正在下载中...', '更新下载完成，下次启动后安装生效'],
         updateStep: -2,
-        newVersion: '',
+        newVersion: '0.0.0',
         progress: 0,
         downloadProgress: 0,
         showConfirmUpdate: false
