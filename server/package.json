@@ -21,7 +21,7 @@
       "author": "",
       "babel": false
     },
-    "projectName": "electron-build-server-test",
+    "projectName": "electron-update-demo-server",
     "clone": false,
     "isMultiModule": false
   }
